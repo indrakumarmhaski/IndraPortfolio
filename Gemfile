@@ -57,3 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'   # For user-friendly routes url
 
 gem 'devise', '~> 4.4', '>= 4.4.3'
+
+gem 'bootstrap', '~> 4.1.1'

@@ -7,7 +7,7 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     @blogs = Blog.page(params[:page]).per(5)      # for kaminari gem that partilates the data 
-
+                          
     @page_title = "My Portfolio Blog"
   end
 

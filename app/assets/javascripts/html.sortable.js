@@ -7,7 +7,6 @@
  * Released under the MIT license.
  */
 
- alert('Hey there');
 
 var sortable = (function () {
 'use strict';
